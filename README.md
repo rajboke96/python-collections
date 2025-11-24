@@ -73,6 +73,25 @@ print("Selection Sort:", SelectionSort.sort(arr))
 print("Insertion Sort:", InsertionSort.sort(arr))
 ```
 ### 
+### **2. Doubly Linked List**
+```python
+from ds.dll import DLL
+
+l1 = DLL()
+l1.insert_at_last(10)
+l1.insert_at_last(20)
+l1.insert_at_last(5)
+print ("Is list empty: ", l1.is_empty())
+search_val = 10
+print(f"Searching '{search_val}':", 'Found' if l1.search(search_val) else 'Not Found' )
+res = l1.search(search_val)
+l1.insert_after(res, in 10)
+l1.print_all()
+l1.delete_at_last()
+l1.print_all()
+l1.delete_at_last()
+l1.print_all()
+```
 
 ## 🤝 Contributions
 
