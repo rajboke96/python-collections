@@ -72,7 +72,7 @@ print("Original Array:", arr)
 print("Bubble Sort:", bubble_sort(arr))
 print("Selection Sort:", selection_sort(arr))
 print("Insertion Sort:", insertion_sort(arr))
-
+```
 
 ## 🤝 Contributions
 
