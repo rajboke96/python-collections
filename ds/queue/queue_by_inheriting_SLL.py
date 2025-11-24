@@ -8,7 +8,7 @@
 import sys
 sys.path.append("../python-collections")
 
-from linked_lists.sll import SLL
+from ds.linked_lists.sll import SLL
 
 class Queue(SLL):
     def __init__(self):

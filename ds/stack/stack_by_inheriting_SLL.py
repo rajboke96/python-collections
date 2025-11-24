@@ -7,7 +7,7 @@
 import sys
 sys.path.append("../python-collections")
 
-from linked_lists.sll import SLL
+from ds.linked_lists.sll import SLL
 
 class Stack(SLL):
     def push(self, data):

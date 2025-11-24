@@ -5,7 +5,7 @@ Priority Queue using SLL
 import sys
 sys.path.append("../python-collections")
 
-from linked_lists.sll import SLL
+from ds.linked_lists.sll import SLL
 
 class PriorityData:
     def __init__(self, p_no, item=None):

@@ -2,7 +2,7 @@
 import sys
 sys.path.append("../python-collections")
 
-from stack.stack_using_SLL_concept import Stack
+from ds.stack.stack_using_SLL_concept import Stack
 
 class Node:
     def __init__(self, item=None, left=None, right=None):
@@ -100,12 +100,13 @@ class BinarySearchTree:
                 else:
                     break
 
-bst = BinarySearchTree()
-bst.insert(100)
-bst.insert(50)
-bst.insert(55)
-bst.insert(60)
-bst.insert(110)
-bst.insert(12)
-bst.insert(150)
-bst.post_traverse()
+if __name__ == '__main__':
+    bst = BinarySearchTree()
+    bst.insert(100)
+    bst.insert(50)
+    bst.insert(55)
+    bst.insert(60)
+    bst.insert(110)
+    bst.insert(12)
+    bst.insert(150)
+    bst.post_traverse()

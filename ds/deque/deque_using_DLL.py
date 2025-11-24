@@ -5,7 +5,7 @@ Deque using DLL
 import sys
 sys.path.append("../python-collections")
 
-from dll import DLL
+from ds.linked_lists.dll import DLL
 
 class Deque:
     def __init__(self):
