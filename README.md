@@ -53,23 +53,26 @@ I’ve created this repo to strengthen my problem-solving skills and prepare for
 ## 💡 How to Run
 
 ```bash
-git clone https://github.com/rajboke96/python-collections
-cd python-collections
+pip install git+https://github.com/rajboke96/python-collections
 ```
-```
-from dsa.linked_list import SLL
-from algos import bubble_sort, selection_sort, insertion_sort
 
-ll = SLL()
-ll.append(10)
-ll.append(20)
-print(ll.display())
+---
+
+### ✅ **2. How to Import and Use**
+
+```markdown
+## Usage Examples
+
+### Sorting Algorithms
+```python
+from dsa.sorting import bubble_sort, selection_sort, insertion_sort
 
 arr = [5, 2, 9, 1]
-print(bubble_sort(arr))
-```
----
----
+print("Original Array:", arr)
+print("Bubble Sort:", bubble_sort(arr))
+print("Selection Sort:", selection_sort(arr))
+print("Insertion Sort:", insertion_sort(arr))
+
 
 ## 🤝 Contributions
 
