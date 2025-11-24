@@ -62,9 +62,9 @@ pip install git+https://github.com/rajboke96/python-collections
 
 ## Usage Examples
 
-### Sorting Algorithms
+### **1. Sorting Algorithms**
 ```python
-from dsa.sorting import bubble_sort, selection_sort, insertion_sort
+from ds import bubble_sort, selection_sort, insertion_sort
 
 arr = [5, 2, 9, 1]
 print("Original Array:", arr)
