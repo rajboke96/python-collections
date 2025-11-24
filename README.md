@@ -50,7 +50,7 @@ I’ve created this repo to strengthen my problem-solving skills and prepare for
 
 ---
 
-### 💡 **1. How to Install**
+### ✅ **1. How to Install**
 
 ```bash
 pip install git+https://github.com/rajboke96/python-collections
@@ -58,7 +58,7 @@ pip install git+https://github.com/rajboke96/python-collections
 
 ---
 
-### ✅ **2. How to Import and Use**
+### 💡 **2. How to Import and Use**
 
 ```markdown
 ## Usage Examples
@@ -73,6 +73,7 @@ print("Bubble Sort:", bubble_sort(arr))
 print("Selection Sort:", selection_sort(arr))
 print("Insertion Sort:", insertion_sort(arr))
 ```
+### 
 
 ## 🤝 Contributions
 
