@@ -9,9 +9,9 @@ I’ve created this repo to strengthen my problem-solving skills and prepare for
 
 ### 🔹 Data Structures
 
-* Linked Lists (Singly, Doubly, Circular)
-* Stacks
-* Queues
+* Linked Lists (Singly, Doubly, Circular, Circular Doubly)
+* Stack
+* Queues (Queue, Deque, Priority Queue)
 * Trees (BST, AVL)
 * Graphs
 
