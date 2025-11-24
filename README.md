@@ -50,7 +50,7 @@ I’ve created this repo to strengthen my problem-solving skills and prepare for
 
 ---
 
-### 💡 **1. How to Install
+### 💡 **1. How to Install**
 
 ```bash
 pip install git+https://github.com/rajboke96/python-collections
