@@ -64,13 +64,13 @@ pip install git+https://github.com/rajboke96/python-collections
 
 ### **1. Sorting Algorithms**
 ```python
-from ds import bubble_sort, selection_sort, insertion_sort
+from ds import BubbleSort, SelectionSort, InsertionSort
 
 arr = [5, 2, 9, 1]
 print("Original Array:", arr)
-print("Bubble Sort:", bubble_sort(arr))
-print("Selection Sort:", selection_sort(arr))
-print("Insertion Sort:", insertion_sort(arr))
+print("Bubble Sort:", BubbleSort.sort(arr))
+print("Selection Sort:", SelectionSort.sort(arr))
+print("Insertion Sort:", InsertionSort.sort(arr))
 ```
 ### 
 
