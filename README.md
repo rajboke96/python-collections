@@ -60,11 +60,9 @@ pip install git+https://github.com/rajboke96/python-collections
 
 ### 💡 **2. How to Import and Use**
 
-```markdown
 ## Usage Examples
 
 ### Sorting Algorithms
-```
 ```python
 from dsa.sorting import bubble_sort, selection_sort, insertion_sort
 
