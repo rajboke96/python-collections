@@ -68,8 +68,8 @@ print("Bubble Sort:", BubbleSort.sort(arr))
 print("Selection Sort:", SelectionSort.sort(arr))
 print("Insertion Sort:", InsertionSort.sort(arr))
 ```
-### 
-### **2. Doubly Linked List**
+
+#### **2. Doubly Linked List**
 ```python
 from python_collections import DLL
 
@@ -89,7 +89,7 @@ l.delete_at_last()
 l.print_all()
 ```
 
-### **3. Queue**
+#### **3. Queue**
 ```python
 from python_collections import Queue
 q = Queue()
