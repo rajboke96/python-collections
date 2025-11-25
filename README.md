@@ -31,18 +31,17 @@ I’ve created this repo to strengthen my problem-solving skills and prepare for
 ## 🗂️ Folder Structure
 
 ```
-├── python-collections/
- ├── src/
-  ├── python_collections/
-   ├── algos/
-   ├── ds/
-    ├── linked_list/
-    ├── stack/
-    ├── queue/
-    ├── deque/
-    ├── priority_queue/
-    ├── trees/
-    ├── graphs/
+├── src/
+ ├── python_collections/
+  ├── algos/
+  ├── ds/
+   ├── linked_list/
+   ├── stack/
+   ├── queue/
+   ├── deque/
+   ├── priority_queue/
+   ├── trees/
+   ├── graphs/
 ```
 
 ---
