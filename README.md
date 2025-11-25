@@ -73,32 +73,32 @@ print("Insertion Sort:", InsertionSort.sort(arr))
 ```python
 from python_collections import DLL
 
-l1 = DLL()
-l1.insert_at_last(10)
-l1.insert_at_last(20)
-l1.insert_at_last(5)
-print ("Is list empty: ", l1.is_empty())
+l = DLL()
+l.insert_at_last(10)
+l.insert_at_last(20)
+l.insert_at_last(5)
+print ("Is list empty: ", l.is_empty())
 search_val = 10
-print(f"Searching '{search_val}':", 'Found' if l1.search(search_val) else 'Not Found' )
-res = l1.search(search_val)
-l1.insert_after(res, in 10)
-l1.print_all()
-l1.delete_at_last()
-l1.print_all()
-l1.delete_at_last()
-l1.print_all()
+print(f"Searching '{search_val}':", 'Found' if l.search(search_val) else 'Not Found' )
+res = l.search(search_val)
+l.insert_after(res, in 10)
+l.print_all()
+l.delete_at_last()
+l.print_all()
+l.delete_at_last()
+l.print_all()
 ```
 
 ### **3. Queue**
 ```python
 from python_collections import Queue
-s = Queue()
+q = Queue()
 for i in range(20):
-    s.enqueue(f"MSG_{i}")
-    while s.size() > 0:
-        print("Size: ", s.size())
-        print("Front: ", s.get_front())
-        print("Rear: ", s.get_rear())
+    q.enqueue(f"MSG_{i}")
+    while q.size() > 0:
+        print("Size: ", q.size())
+        print("Front: ", q.get_front())
+        print("Rear: ", q.get_rear())
         print("Dequeue: ", s.dequeue())
 ```
 ## 🤝 Contributions
