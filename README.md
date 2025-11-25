@@ -89,6 +89,18 @@ l1.delete_at_last()
 l1.print_all()
 ```
 
+### **3. Queue**
+```python
+from python_collections import Queue
+s = Queue()
+for i in range(20):
+    s.enqueue(f"MSG_{i}")
+    while s.size() > 0:
+        print("Size: ", s.size())
+        print("Front: ", s.get_front())
+        print("Rear: ", s.get_rear())
+        print("Dequeue: ", s.dequeue())
+```
 ## 🤝 Contributions
 
 If you’d like to improve or add more algorithms, feel free to submit a pull request!
