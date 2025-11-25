@@ -59,9 +59,7 @@ pip install git+https://github.com/rajboke96/python-collections
 
 ### **1. Sorting Algorithms**
 ```python
-from algos.bubble_sort import BubbleSort
-from algos.selection_sort import SelectionSort
-from algos.insertion_sort import InsertionSort
+from python_collections import BubbleSort, SelectionSort, InsertionSort
 
 arr = [5, 2, 9, 1]
 print("Original Array:", arr)
@@ -72,7 +70,7 @@ print("Insertion Sort:", InsertionSort.sort(arr))
 ### 
 ### **2. Doubly Linked List**
 ```python
-from ds.linked_lists.dll import DLL
+from python_collections import DLL
 
 l1 = DLL()
 l1.insert_at_last(10)
