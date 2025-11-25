@@ -104,6 +104,7 @@ for i in range(20):
 
 ### **4. Binary Search Tree**
 ```python
+    from python_collections import BST
     bst = BST()
     l = [110, 9, 115, 8, 25, 112, 116, 20, 30, 113]
     for i in l:
