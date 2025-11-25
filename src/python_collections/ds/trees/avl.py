@@ -236,28 +236,29 @@ class BST:
     def size(self):
         return self.count
 
-bst = BST()
-l = [110, 9, 115, 8, 25, 112, 116, 20, 30, 113]
-# l = [i for i in range(1, 10)]
-for i in l:
-    bst.insert(i)
-bst.delete(20)
-bst.delete(30)
-bst.delete(25)
-bst.delete(8)
-# bst.print_balance_factor()
-# print("Size: ", bst.size())
-# for root in bst.inorder():
-#     print("Item:", root.item, ", Height:", root.height, 
-#                   ", Balance Factor: ", bst.get_root_bf(root))
-# bst.delete(9)
-# bst.delete(112)
-# bst.delete(1112)
-# print("Size: ", bst.size())
-# for n in bst.inorder():
-#     print(n.item, n.height)
-# print("Min Val: ", bst.min())
-# print("Max Val: ", bst.max())
-# print("Preorder traverse: ", bst.preorder())
-# print("Postorder traverse: ", bst.postorder())
-# print("search: ", bst.search(0))
+if __name__ == '__main__':
+    bst = BST()
+    l = [110, 9, 115, 8, 25, 112, 116, 20, 30, 113]
+    # l = [i for i in range(1, 10)]
+    for i in l:
+        bst.insert(i)
+    bst.delete(20)
+    bst.delete(30)
+    bst.delete(25)
+    bst.delete(8)
+    # bst.print_balance_factor()
+    # print("Size: ", bst.size())
+    # for root in bst.inorder():
+    #     print("Item:", root.item, ", Height:", root.height, 
+    #                   ", Balance Factor: ", bst.get_root_bf(root))
+    # bst.delete(9)
+    # bst.delete(112)
+    # bst.delete(1112)
+    # print("Size: ", bst.size())
+    # for n in bst.inorder():
+    #     print(n.item, n.height)
+    # print("Min Val: ", bst.min())
+    # print("Max Val: ", bst.max())
+    # print("Preorder traverse: ", bst.preorder())
+    # print("Postorder traverse: ", bst.postorder())
+    # print("search: ", bst.search(0))

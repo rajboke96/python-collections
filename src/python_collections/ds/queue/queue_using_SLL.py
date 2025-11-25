@@ -5,10 +5,9 @@
 - Working principle - First in First out (FIFO).
 """
 
-import sys
-sys.path.append("../python-collections")
 
-from ds.linked_lists.sll import SLL
+
+from python_collections.ds.linked_lists.sll import SLL
 
 class Queue:
     def __init__(self):

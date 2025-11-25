@@ -1,11 +1,8 @@
 import logging
 logging.basicConfig(level=logging.INFO)
 
-import sys
-sys.path.append("../python-collections")
-
-from ds.queue import Queue
-from ds.stack import Stack
+from python_collections.ds.stack.stack_using_SLL_concept import Stack
+from python_collections.ds.queue.queue_using_SLL_concept import Queue
 
 class Graph:
     def __init__(self, v_count):
@@ -88,21 +85,22 @@ class Graph:
         for i in self.adj_matrix:
             print(i)
 
-g = Graph(7)
-g.add_edge(0, 1)
-g.add_edge(0, 2)
-# g.add_edge(0, 6)
-g.add_edge(1, 3)
-g.add_edge(1, 4)
-g.add_edge(1, 5)
-g.add_edge(2, 3)
-g.add_edge(3, 2)
-g.add_edge(3, 4)
-g.add_edge(3, 5)
-g.add_edge(4, 5)
-g.add_edge(4, 6)
-g.add_edge(5, 6)
-print("Adjacent Matrix Representation of a Graph")
-g.print_adj_matrix()
-print("BFS Result:", g.bfs(0))
-print("DFS Result:", g.dfs(0))
+if __name__ == '__main__':
+    g = Graph(7)
+    g.add_edge(0, 1)
+    g.add_edge(0, 2)
+    # g.add_edge(0, 6)
+    g.add_edge(1, 3)
+    g.add_edge(1, 4)
+    g.add_edge(1, 5)
+    g.add_edge(2, 3)
+    g.add_edge(3, 2)
+    g.add_edge(3, 4)
+    g.add_edge(3, 5)
+    g.add_edge(4, 5)
+    g.add_edge(4, 6)
+    g.add_edge(5, 6)
+    print("Adjacent Matrix Representation of a Graph")
+    g.print_adj_matrix()
+    print("BFS Result:", g.bfs(0))
+    print("DFS Result:", g.dfs(0))

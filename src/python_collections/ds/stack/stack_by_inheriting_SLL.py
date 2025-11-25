@@ -1,43 +1,34 @@
-""" 
-* Stack using SLL *
+"""
+* Stack by inheriting SLL *
 - Stack - A container in which the elements are placed on top of each other.
 - Working principle - Last in First out (LIFO).
 """
 
-import sys
-sys.path.append("../python-collections")
 
-from ds.linked_lists.sll import SLL
 
-class Stack:
-    def __init__(self):
-        self.sll = SLL()
-        self.len = 0
+from python_collections.ds.linked_lists.sll import SLL
 
+class Stack(SLL):
     def push(self, data):
-        self.sll.insert_at_first(data)
-        self.len += 1
-
+        self.insert_at_first(data)
+    
     def pop(self):
-        if not self.sll.is_empty():
-            data = self.sll.start.item
-            self.sll.delete_at_first()
-            self.len -= 1
+        if self.start:
+            data = self.start.item
+            self.delete_at_first()
             return data
         else:
             raise Exception('Stack Empty!')
-        
+    
     def size(self):
         return self.len
-
+    
     def peek(self):
-        if self.sll.is_empty():
+        if self.start:
+            return self.start.item
+        else:
             raise Exception('Stack Empty!')
-        return self.sll.start.item
 
-    def is_empty(self):
-        return self.sll.is_empty()
-        
 if __name__ == '__main__':
     s = Stack()
     for i in range(20):

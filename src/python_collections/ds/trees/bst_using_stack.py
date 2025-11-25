@@ -1,8 +1,4 @@
-
-import sys
-sys.path.append("../python-collections")
-
-from ds.stack.stack_using_SLL_concept import Stack
+from python_collections.ds.stack.stack_using_SLL_concept import Stack
 
 class Node:
     def __init__(self, item=None, left=None, right=None):

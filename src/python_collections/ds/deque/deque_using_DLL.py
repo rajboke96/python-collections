@@ -2,10 +2,9 @@
 Deque using DLL
 """
 
-import sys
-sys.path.append("../python-collections")
 
-from ds.linked_lists.dll import DLL
+
+from python_collections.ds.linked_lists.dll import DLL
 
 class Deque:
     def __init__(self):

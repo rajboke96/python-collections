@@ -114,19 +114,20 @@ class BST:
     def size(self):
         return self.count
 
-bst = BST()
-l = [110, 9, 115, 8, 25, 112, 116, 20, 30, 113]
-for i in l:
-    bst.insert(i)
-print("Size: ", bst.size())
-print("Inorder traverse: ", bst.inorder())
-bst.delete(9)
-bst.delete(112)
-bst.delete(1112)
-print("Size: ", bst.size())
-print("Inorder traverse: ", bst.inorder())
-print("Min Val: ", bst.min())
-print("Max Val: ", bst.max())
-# print("Preorder traverse: ", bst.preorder())
-# print("Postorder traverse: ", bst.postorder())
-# print("search: ", bst.search(0))
+if __name__ == '__main__':
+    bst = BST()
+    l = [110, 9, 115, 8, 25, 112, 116, 20, 30, 113]
+    for i in l:
+        bst.insert(i)
+    print("Size: ", bst.size())
+    print("Inorder traverse: ", bst.inorder())
+    bst.delete(9)
+    bst.delete(112)
+    bst.delete(1112)
+    print("Size: ", bst.size())
+    print("Inorder traverse: ", bst.inorder())
+    print("Min Val: ", bst.min())
+    print("Max Val: ", bst.max())
+    # print("Preorder traverse: ", bst.preorder())
+    # print("Postorder traverse: ", bst.postorder())
+    # print("search: ", bst.search(0))
