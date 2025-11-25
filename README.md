@@ -46,7 +46,7 @@ I’ve created this repo to strengthen my problem-solving skills and prepare for
 
 ---
 
-### ✅ **1. How to Install**
+## ✅ **1. How to Install**
 
 ```bash
 pip install git+https://github.com/rajboke96/python-collections
@@ -54,11 +54,11 @@ pip install git+https://github.com/rajboke96/python-collections
 
 ---
 
-### 💡 **2. How to Import and Use**
+## 💡 **2. How to Import and Use**
 
-## Usage Examples
+### Usage Examples
 
-### **1. Sorting Algorithms**
+#### **1. Sorting Algorithms**
 ```python
 from python_collections import BubbleSort, SelectionSort, InsertionSort
 
