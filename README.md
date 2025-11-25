@@ -99,7 +99,7 @@ for i in range(20):
         print("Size: ", q.size())
         print("Front: ", q.get_front())
         print("Rear: ", q.get_rear())
-        print("Dequeue: ", s.dequeue())
+        print("Dequeue: ", q.dequeue())
 ```
 ## 🤝 Contributions
 
