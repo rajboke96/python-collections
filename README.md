@@ -72,7 +72,7 @@ print("Insertion Sort:", InsertionSort.sort(arr))
 ### 
 ### **2. Doubly Linked List**
 ```python
-from ds.dll import DLL
+from ds.linked_lists.dll import DLL
 
 l1 = DLL()
 l1.insert_at_last(10)
