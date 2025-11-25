@@ -59,9 +59,9 @@ pip install git+https://github.com/rajboke96/python-collections
 
 ### **1. Sorting Algorithms**
 ```python
-from ds.bubble_sort import BubbleSort
-from ds.selection_sort import SelectionSort
-from ds.insertion_sort import InsertionSort
+from algos.bubble_sort import BubbleSort
+from algos.selection_sort import SelectionSort
+from algos.insertion_sort import InsertionSort
 
 arr = [5, 2, 9, 1]
 print("Original Array:", arr)
