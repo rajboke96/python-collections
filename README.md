@@ -14,6 +14,7 @@ I’ve created this repo to strengthen my problem-solving skills and prepare for
 * Stack
 * Queue(Queue, Deque & Priority Queue)
 * Trees – (BST & AVL)
+* Graph
 
 ---
 
