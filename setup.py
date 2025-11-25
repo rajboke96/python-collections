@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="python-collections",
+    name="python_collections",
     version="1.0.0",
     packages=find_packages(),
     description="Python Data Structures and Algorithms implementations",
