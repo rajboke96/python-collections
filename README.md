@@ -7,19 +7,13 @@ I’ve created this repo to strengthen my problem-solving skills and prepare for
 
 ## 📂 Contents
 
-### 🔹 Data Structures
+### 🔹 Data Structures & Algorithms
 
-* Linked Lists (Singly, Doubly, Circular, Circular Doubly)
+* Sorting Algorithms (Bubble, Selection & Insertion)
+* Linked List(Singly, Doubly, Circular & Circular Doubly)
 * Stack
-* Queues (Queue, Deque, Priority Queue)
-* Trees (BST, AVL)
-* Graphs
-
-### 🔹 Sorting Algorithms
-
-* Bubble Sort
-* Selection Sort
-* Insertion Sort
+* Queue(Queue, Deque & Priority Queue)
+* Trees – (BST & AVL)
 
 ---
 
