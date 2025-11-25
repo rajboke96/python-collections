@@ -32,15 +32,16 @@ I’ve created this repo to strengthen my problem-solving skills and prepare for
 
 ```
 ├── python-collections/
- ├── algos/
- ├── ds/
-  ├── linked_list/
-  ├── stack/
-  ├── queue/
-  ├── deque/
-  ├── priority_queue/
-  ├── trees/
-  ├── graphs/
+ ├── src/
+  ├── algos/
+  ├── ds/
+   ├── linked_list/
+   ├── stack/
+   ├── queue/
+   ├── deque/
+   ├── priority_queue/
+   ├── trees/
+   ├── graphs/
 ```
 
 ---
