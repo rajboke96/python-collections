@@ -46,7 +46,7 @@ I’ve created this repo to strengthen my problem-solving skills and prepare for
 
 ---
 
-## ✅ **1. How to Install**
+## ✅ How to Install
 
 ```bash
 pip install git+https://github.com/rajboke96/python-collections
@@ -54,7 +54,7 @@ pip install git+https://github.com/rajboke96/python-collections
 
 ---
 
-## 💡 **2. How to Import and Use**
+## 💡 How to Import and Use
 
 ### Usage Examples
 
