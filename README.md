@@ -102,7 +102,7 @@ for i in range(20):
         print("Dequeue: ", q.dequeue())
 ```
 
-### **4. Binary Search Tree**
+#### **4. Binary Search Tree**
 ```python
     from python_collections import BST
     bst = BST()
