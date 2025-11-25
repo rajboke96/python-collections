@@ -101,6 +101,27 @@ for i in range(20):
         print("Rear: ", q.get_rear())
         print("Dequeue: ", q.dequeue())
 ```
+
+### **4. Binary Search Tree**
+```python
+    bst = BST()
+    l = [110, 9, 115, 8, 25, 112, 116, 20, 30, 113]
+    for i in l:
+        bst.insert(i)
+    print("Size: ", bst.size())
+    print("Inorder traverse: ", bst.inorder())
+    bst.delete(9)
+    bst.delete(112)
+    bst.delete(1112)
+    print("Size: ", bst.size())
+    print("Inorder traverse: ", bst.inorder())
+    print("Min Val: ", bst.min())
+    print("Max Val: ", bst.max())
+    print("Preorder traverse: ", bst.preorder())
+    print("Postorder traverse: ", bst.postorder())
+    print("search 0: ", bst.search(0))
+```
+
 ## 🤝 Contributions
 
 If you’d like to improve or add more algorithms, feel free to submit a pull request!
