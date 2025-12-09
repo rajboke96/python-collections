@@ -17,41 +17,29 @@ class PriorityData:
 class PriorityQueue:
     def __init__(self):
         self.items = SLL()
-        self.count = 0
-
+        
     def is_empty(self):
-        return self.count == 0
+        return self.items.is_empty()
 
     def get_size(self):
-        return self.count
+        return self.items.get_size()
 
     def push(self, p_no, data):
         pdata = PriorityData(p_no, data)
-        if self.count == 0 or self.items.start.item.p_no > p_no:
-            self.items.insert_at_first(pdata)
-        else:
-            tmp = self.items.start
-            while tmp.next:
-                if tmp.next.item.p_no > p_no:
-                    self.items.insert_after(tmp, pdata)
-                    return
-                tmp = tmp.next
-            else:
-                self.items.insert_after(tmp, pdata)
+        self.items.insert_at_last(pdata)
         self.count += 1
 
     def pop(self):
-        if self.count == 0:
+        if self.items.is_empty():
             raise IndexError("Priority Queue Underflow!")
         pdata = self.items.start.item
         self.items.delete_at_first()
-        self.count -= 1
         return pdata
 
     def print(self):
         for pdata in self.items:
             print(pdata, end="\n")
-
+            
 
 if __name__ == "__main__":
     pq = PriorityQueue()
