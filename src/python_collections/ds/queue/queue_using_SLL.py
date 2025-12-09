@@ -14,7 +14,6 @@ class Queue:
         self.items = SLL()
         self.front = None
         self.rear = None
-        self.len = 0
 
     def enqueue(self, data):
         if self.rear:
@@ -34,7 +33,6 @@ class Queue:
             self.rear = None
         self.items.delete_at_first()
         self.front = self.front.next
-        self.len -= 1
         return data
     
     def get_front(self):
@@ -49,8 +47,8 @@ class Queue:
         data = self.rear.item
         return data
     
-    def size(self):
-        return self.len
+    def get_size(self):
+        return self.get_size()
     
     def is_empty(self):
         return self.items.is_empty()
@@ -60,7 +58,7 @@ if __name__ == '__main__':
     for i in range(20):
         s.enqueue(i)
     while s.size() > 0:
-        print("Size: ", s.size())
+        print("Size: ", s.get_size())
         print("Front: ", s.get_front())
         print("Rear: ", s.get_rear())
         print("Dequeue: ", s.dequeue())
